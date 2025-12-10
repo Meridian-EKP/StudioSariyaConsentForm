@@ -79,13 +79,22 @@
           transition: all 0.2s linear;
           transition-delay: 0.15s;
         }
+        
+        /* Gradient text for Studio Sariya title */
+        .gradient-text {
+          background: linear-gradient(to right, #9333ea, #db2777);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color: transparent;
+        }
     </style>
 </head>
 <body class="bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 min-h-screen py-8 px-4">
     <div class="max-w-2xl mx-auto">
         <!-- Header -->
         <div class="text-center mb-8">
-            <h1 class="text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-3 tracking-tight leading-tight pb-2">
+            <h1 class="text-5xl font-bold gradient-text mb-3 tracking-tight leading-tight pb-2">
                 Studio Sariya
             </h1>
             <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mt-4 mb-4 rounded-full"></div>
@@ -609,5 +618,12 @@
     </script>
 </body>
 </html>
+
+
+        });
+    </script>
+</body>
+</html>
+
 
 
